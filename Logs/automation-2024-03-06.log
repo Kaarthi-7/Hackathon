@@ -1,0 +1,52 @@
+16:14:42.866 [main] INFO  factory.BaseClass - ----Successfully Hovered on the upcoming Bikes----
+16:14:52.151 [main] INFO  factory.BaseClass - ----Successfully clicked on the upcoming Bikes----
+16:14:55.314 [main] INFO  factory.BaseClass - ----Successfully Selected Brand as "HONDA"----
+16:15:01.165 [main] INFO  factory.BaseClass - ----Successfully Scrolled to bottom of the page----
+16:15:03.322 [main] INFO  factory.BaseClass - ----Successfully Clicked read more----
+16:16:06.090 [main] INFO  factory.BaseClass - ----Successfully Hovered on the upcoming Bikes----
+16:16:09.042 [main] INFO  factory.BaseClass - ----Successfully clicked on the upcoming Bikes----
+16:16:14.430 [main] INFO  factory.BaseClass - ----Successfully Selected Brand as "HONDA"----
+16:16:20.559 [main] INFO  factory.BaseClass - ----Successfully Scrolled to bottom of the page----
+16:16:22.203 [main] INFO  factory.BaseClass - ----Successfully Clicked read more----
+16:17:41.069 [main] INFO  factory.BaseClass - ----Successfully Hovered on the upcoming Bikes----
+16:17:46.882 [main] INFO  factory.BaseClass - ----Successfully clicked on the upcoming Bikes----
+16:17:49.304 [main] INFO  factory.BaseClass - ----Successfully Selected Brand as "HONDA"----
+16:17:55.154 [main] INFO  factory.BaseClass - ----Successfully Scrolled to bottom of the page----
+16:17:55.968 [main] INFO  factory.BaseClass - ----Successfully Clicked read more----
+16:18:15.288 [main] INFO  factory.BaseClass - ----Successfully printed the details of the upcoming bikes----
+16:34:25.650 [main] INFO  factory.BaseClass - ----Successfully navogated on the Used Cars----
+16:34:25.635 [main] INFO  factory.BaseClass - ----Successfully navogated on the Used Cars----
+16:38:26.446 [main] INFO  factory.BaseClass - ----Successfully Hovered on the upcoming Bikes----
+16:38:29.547 [main] INFO  factory.BaseClass - ----Successfully clicked on the upcoming Bikes----
+16:38:33.233 [main] INFO  factory.BaseClass - ----Successfully Selected Brand as "HONDA"----
+16:38:39.905 [main] INFO  factory.BaseClass - ----Successfully Scrolled to bottom of the page----
+16:38:40.642 [main] INFO  factory.BaseClass - ----Successfully Clicked read more----
+16:38:59.098 [main] INFO  factory.BaseClass - ----Successfully printed the details of the upcoming bikes----
+16:39:02.546 [main] INFO  factory.BaseClass - ----Successfully navogated on the Used Cars----
+16:39:06.544 [main] INFO  factory.BaseClass - ----Successfully hovered on the Used Cars----
+16:39:16.788 [main] INFO  factory.BaseClass - ----Successfully clicked on the Used Cars in chennai----
+16:39:17.265 [main] INFO  factory.BaseClass - ----Successfully Scrolled to bottom of the page----
+16:39:19.583 [main] INFO  factory.BaseClass - ----Successfully displayed the popular car brand name----
+16:39:23.213 [main] INFO  factory.BaseClass - ----Successfully navigated to home page----
+16:39:29.378 [main] INFO  factory.BaseClass - ----Successfully clicked on login in home page----
+16:39:31.366 [main] INFO  factory.BaseClass - ----Successfully clicked on google in signin home page----
+16:39:35.846 [main] INFO  factory.BaseClass - ----Successfully switched to login tab----
+16:39:37.924 [main] INFO  factory.BaseClass - ----Successfully sent the mail-ID to login page----
+16:39:39.305 [main] INFO  factory.BaseClass - ----Successfully procedded with the Mail-ID----
+16:39:42.717 [main] INFO  factory.BaseClass - ----Successfully captured the Error message----
+16:57:13.279 [main] INFO  factory.BaseClass - ----Successfully clicked on the Page Logo----
+16:57:17.622 [main] INFO  factory.BaseClass - ----Successfully navigated on the Upcoming Bikes----
+16:57:40.890 [main] INFO  factory.BaseClass - ----Successfully printed the details of upcoming bikes----
+16:57:54.238 [main] INFO  factory.BaseClass - ----Successfully navigated to Used Cars----
+16:57:56.800 [main] INFO  factory.BaseClass - ----Successfully printed the details of the popular car models----
+16:58:10.712 [main] INFO  factory.BaseClass - ----Opened the sign In using google page----
+17:04:37.872 [main] INFO  factory.BaseClass - ----Successfully clicked on the Page Logo----
+17:04:44.860 [main] INFO  factory.BaseClass - ----Successfully navigated on the Upcoming Bikes----
+17:05:08.578 [main] INFO  factory.BaseClass - ----Successfully printed the details of upcoming bikes----
+17:05:23.168 [main] INFO  factory.BaseClass - ----Successfully navigated to Used Cars----
+17:05:26.479 [main] INFO  factory.BaseClass - ----Successfully printed the details of the popular car models----
+17:05:42.214 [main] INFO  factory.BaseClass - ----Opened the sign In using google page----
+17:05:47.248 [main] INFO  factory.BaseClass - ----Captured the error successfully----
+17:06:21.521 [main] INFO  factory.BaseClass - ----Successfully Hovered on the upcoming Bikes----
+17:06:27.126 [main] INFO  factory.BaseClass - ----Successfully clicked on the upcoming Bikes----
+17:06:30.144 [main] INFO  factory.BaseClass - ----Successfully Selected Brand as "HONDA"----

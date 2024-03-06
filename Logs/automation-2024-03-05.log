@@ -1,0 +1,5 @@
+17:30:14.591 [main] INFO  factory.BaseClass - ----Successfully Scrolled to bottom of the page----
+17:30:15.460 [main] INFO  factory.BaseClass - ----Successfully Clicked read more----
+17:30:21.807 [main] INFO  factory.BaseClass - ----Successfully navigated on the Upcoming Bikes----
+17:30:24.227 [main] INFO  factory.BaseClass - ----Successfully printed the details of the upcoming bikes----
+17:31:06.339 [main] INFO  factory.BaseClass - ----Successfully Scrolled to bottom of the page----
