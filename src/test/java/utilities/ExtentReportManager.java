@@ -1,5 +1,8 @@
 package utilities;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -76,8 +79,12 @@ public class ExtentReportManager implements ITestListener {
 
 	public void onFinish(ITestContext testContext) {
 		report.flush();
+		String pathOfExtentReport = System.getProperty("user.dir")+"\\TestNGreports\\"+reportName;
+		File extentReport = new File(pathOfExtentReport);
+		try {
+			Desktop.getDesktop().browse(extentReport.toURI());
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
-	
-	
-	
 }
