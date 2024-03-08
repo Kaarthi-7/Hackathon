@@ -79,7 +79,7 @@ public class ExtentReportManager implements ITestListener {
 
 	public void onFinish(ITestContext testContext) {
 		report.flush();
-		String pathOfExtentReport = System.getProperty("user.dir")+"\\TestNGreports\\"+reportName;
+		String pathOfExtentReport = System.getProperty("user.dir")+"\\Reports\\"+reportName;
 		File extentReport = new File(pathOfExtentReport);
 		try {
 			Desktop.getDesktop().browse(extentReport.toURI());
