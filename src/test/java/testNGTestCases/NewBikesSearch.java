@@ -13,7 +13,6 @@ public class NewBikesSearch extends Setup {
 		ZigWheelsHomePage ZWHP = new ZigWheelsHomePage(BaseClass.getDriver());
 		ZWHP.HoveringNewBikes();
 		BaseClass.getLogger().info("----Successfully Hovered on the upcoming Bikes----");
-
 	}
 
 	@Test(priority = 2, groups = { "regression", "smoke" })

@@ -12,7 +12,7 @@ public class UsedCarsSearch extends NewBikesSearch{
 	public void navigateToHomepage() throws Exception {
 		ZigWheelsHomePage ZWHP = new ZigWheelsHomePage(BaseClass.getDriver());
 		ZWHP.NavigateBack();
-		BaseClass.getLogger().info("----Successfully navogated on the Used Cars----");
+		BaseClass.getLogger().info("----Successfully navigated on the Used Cars----");
 	}
 	
 	@Test(priority = 8,groups= {"regression"})

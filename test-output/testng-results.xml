@@ -1,28 +1,430 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="13" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-06T16:34:15 IST" name="Default suite" finished-at="2024-03-06T16:34:25 IST" duration-ms="10239">
+  <suite started-at="2024-03-08T14:39:12 IST" name="Suite" finished-at="2024-03-08T14:41:21 IST" duration-ms="128413">
     <groups>
       <group name="regression">
-        <method signature="UsedCarsSearch.navigateToHomepage()[pri:7, instance:testNGTestCases.UsedCarsSearch@4d14b6c2]" name="navigateToHomepage" class="testNGTestCases.UsedCarsSearch"/>
+        <method signature="NewBikesSearch.HoveringAtUpcomingBikes()[pri:1, instance:testNGTestCases.SignInPage@1a4927d6]" name="HoveringAtUpcomingBikes" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.NavigateToUpcomingBikes()[pri:2, instance:testNGTestCases.SignInPage@1a4927d6]" name="NavigateToUpcomingBikes" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.SelectingHonda()[pri:3, instance:testNGTestCases.SignInPage@1a4927d6]" name="SelectingHonda" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.Scrolling()[pri:4, instance:testNGTestCases.SignInPage@1a4927d6]" name="Scrolling" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.ClickingLoadMore()[pri:5, instance:testNGTestCases.SignInPage@1a4927d6]" name="ClickingLoadMore" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.UpcommingBikes()[pri:6, instance:testNGTestCases.SignInPage@1a4927d6]" name="UpcommingBikes" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="UsedCarsSearch.navigateToHomepage()[pri:7, instance:testNGTestCases.SignInPage@1a4927d6]" name="navigateToHomepage" class="testNGTestCases.UsedCarsSearch"/>
+        <method signature="UsedCarsSearch.HoveringUsedCars()[pri:8, instance:testNGTestCases.SignInPage@1a4927d6]" name="HoveringUsedCars" class="testNGTestCases.UsedCarsSearch"/>
+        <method signature="UsedCarsSearch.ClickingOnChennai()[pri:9, instance:testNGTestCases.SignInPage@1a4927d6]" name="ClickingOnChennai" class="testNGTestCases.UsedCarsSearch"/>
+        <method signature="UsedCarsSearch.Scroll()[pri:10, instance:testNGTestCases.SignInPage@1a4927d6]" name="Scroll" class="testNGTestCases.UsedCarsSearch"/>
+        <method signature="UsedCarsSearch.usedCars()[pri:11, instance:testNGTestCases.SignInPage@1a4927d6]" name="usedCars" class="testNGTestCases.UsedCarsSearch"/>
+        <method signature="SignInPage.navigateToMainpage()[pri:12, instance:testNGTestCases.SignInPage@1a4927d6]" name="navigateToMainpage" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.ClickonSignIn()[pri:13, instance:testNGTestCases.SignInPage@1a4927d6]" name="ClickonSignIn" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.Clickongoogle()[pri:14, instance:testNGTestCases.SignInPage@1a4927d6]" name="Clickongoogle" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.SwitchingTab()[pri:15, instance:testNGTestCases.SignInPage@1a4927d6]" name="SwitchingTab" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.SendMailID()[pri:16, instance:testNGTestCases.SignInPage@1a4927d6]" name="SendMailID" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.ProcedingWithMain()[pri:17, instance:testNGTestCases.SignInPage@1a4927d6]" name="ProcedingWithMain" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.captureSigninError()[pri:18, instance:testNGTestCases.SignInPage@1a4927d6]" name="captureSigninError" class="testNGTestCases.SignInPage"/>
       </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="NewBikesSearch.HoveringAtUpcomingBikes()[pri:1, instance:testNGTestCases.SignInPage@1a4927d6]" name="HoveringAtUpcomingBikes" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.NavigateToUpcomingBikes()[pri:2, instance:testNGTestCases.SignInPage@1a4927d6]" name="NavigateToUpcomingBikes" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.SelectingHonda()[pri:3, instance:testNGTestCases.SignInPage@1a4927d6]" name="SelectingHonda" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.Scrolling()[pri:4, instance:testNGTestCases.SignInPage@1a4927d6]" name="Scrolling" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.ClickingLoadMore()[pri:5, instance:testNGTestCases.SignInPage@1a4927d6]" name="ClickingLoadMore" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.UpcommingBikes()[pri:6, instance:testNGTestCases.SignInPage@1a4927d6]" name="UpcommingBikes" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="SignInPage.ClickonSignIn()[pri:13, instance:testNGTestCases.SignInPage@1a4927d6]" name="ClickonSignIn" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.Clickongoogle()[pri:14, instance:testNGTestCases.SignInPage@1a4927d6]" name="Clickongoogle" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.SwitchingTab()[pri:15, instance:testNGTestCases.SignInPage@1a4927d6]" name="SwitchingTab" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.SendMailID()[pri:16, instance:testNGTestCases.SignInPage@1a4927d6]" name="SendMailID" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.ProcedingWithMain()[pri:17, instance:testNGTestCases.SignInPage@1a4927d6]" name="ProcedingWithMain" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.captureSigninError()[pri:18, instance:testNGTestCases.SignInPage@1a4927d6]" name="captureSigninError" class="testNGTestCases.SignInPage"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-03-06T16:34:15 IST" name="Default test" finished-at="2024-03-06T16:34:25 IST" duration-ms="10239">
-      <class name="testNGTestCases.UsedCarsSearch">
-        <test-method is-config="true" signature="siteLaunch()[pri:0, instance:testNGTestCases.UsedCarsSearch@4d14b6c2]" started-at="2024-03-06T16:33:52 IST" name="siteLaunch" finished-at="2024-03-06T16:34:15 IST" duration-ms="23457" status="PASS">
+    <test started-at="2024-03-08T14:39:12 IST" name="Edge" finished-at="2024-03-08T14:41:21 IST" duration-ms="128413">
+      <class name="testNGTestCases.SignInPage">
+        <test-method is-config="true" signature="siteLaunch()[pri:0, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:38:44 IST" name="siteLaunch" finished-at="2024-03-08T14:39:12 IST" duration-ms="27603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- siteLaunch -->
-        <test-method signature="navigateToHomepage()[pri:7, instance:testNGTestCases.UsedCarsSearch@4d14b6c2]" started-at="2024-03-06T16:34:15 IST" name="navigateToHomepage" finished-at="2024-03-06T16:34:25 IST" duration-ms="9978" status="PASS">
+        <test-method signature="HoveringAtUpcomingBikes()[pri:1, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:39:14 IST" name="HoveringAtUpcomingBikes" finished-at="2024-03-08T14:39:19 IST" duration-ms="4541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoveringAtUpcomingBikes -->
+        <test-method signature="NavigateToUpcomingBikes()[pri:2, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:39:20 IST" name="NavigateToUpcomingBikes" finished-at="2024-03-08T14:39:27 IST" duration-ms="6634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToUpcomingBikes -->
+        <test-method signature="SelectingHonda()[pri:3, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:39:27 IST" name="SelectingHonda" finished-at="2024-03-08T14:39:31 IST" duration-ms="4414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectingHonda -->
+        <test-method signature="Scrolling()[pri:4, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:39:32 IST" name="Scrolling" finished-at="2024-03-08T14:39:37 IST" duration-ms="5051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scrolling -->
+        <test-method signature="ClickingLoadMore()[pri:5, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:39:38 IST" name="ClickingLoadMore" finished-at="2024-03-08T14:39:38 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingLoadMore -->
+        <test-method signature="UpcommingBikes()[pri:6, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:39:39 IST" name="UpcommingBikes" finished-at="2024-03-08T14:39:56 IST" duration-ms="16980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpcommingBikes -->
+        <test-method signature="navigateToHomepage()[pri:7, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:39:56 IST" name="navigateToHomepage" finished-at="2024-03-08T14:40:02 IST" duration-ms="6385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToHomepage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGTestCases.UsedCarsSearch@4d14b6c2]" started-at="2024-03-06T16:34:26 IST" name="tearDown" finished-at="2024-03-06T16:34:28 IST" duration-ms="2335" status="PASS">
+        <test-method signature="HoveringUsedCars()[pri:8, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:40:05 IST" name="HoveringUsedCars" finished-at="2024-03-08T14:40:06 IST" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoveringUsedCars -->
+        <test-method signature="ClickingOnChennai()[pri:9, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:40:07 IST" name="ClickingOnChennai" finished-at="2024-03-08T14:40:18 IST" duration-ms="11074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingOnChennai -->
+        <test-method signature="Scroll()[pri:10, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:40:19 IST" name="Scroll" finished-at="2024-03-08T14:40:19 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scroll -->
+        <test-method signature="usedCars()[pri:11, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:40:20 IST" name="usedCars" finished-at="2024-03-08T14:40:22 IST" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCars -->
+        <test-method signature="navigateToMainpage()[pri:12, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:40:22 IST" name="navigateToMainpage" finished-at="2024-03-08T14:40:25 IST" duration-ms="2900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMainpage -->
+        <test-method signature="ClickonSignIn()[pri:13, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:40:27 IST" name="ClickonSignIn" finished-at="2024-03-08T14:40:31 IST" duration-ms="3190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonSignIn -->
+        <test-method signature="Clickongoogle()[pri:14, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:40:32 IST" name="Clickongoogle" finished-at="2024-03-08T14:41:12 IST" duration-ms="40050" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='lgn-sc c-p txt-l pl-30 pr-30 googleSignIn']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f037d37e877525d0c05bb62cb88664ce, findElement {value=//div[@class='lgn-sc c-p txt-l pl-30 pr-30 googleSignIn'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62895/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f037d37e877525d0c05bb62cb88664ce]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='lgn-sc c-p txt-l pl-30 pr-30 googleSignIn']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f037d37e877525d0c05bb62cb88664ce, findElement {value=//div[@class='lgn-sc c-p txt-l pl-30 pr-30 googleSignIn'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62895/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f037d37e877525d0c05bb62cb88664ce
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at pageObjects.ZigWheelsHomePage.GoogleClick(ZigWheelsHomePage.java:71)
+at testNGTestCases.SignInPage.Clickongoogle(SignInPage.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clickongoogle -->
+        <test-method signature="SwitchingTab()[pri:15, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:41:13 IST" name="SwitchingTab" finished-at="2024-03-08T14:41:13 IST" duration-ms="46" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 1 out of bounds for length 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+at java.base/java.util.Objects.checkIndex(Objects.java:385)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at testNGTestCases.SignInPage.SwitchingTab(SignInPage.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchingTab -->
+        <test-method signature="SendMailID()[pri:16, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:41:14 IST" name="SendMailID" finished-at="2024-03-08T14:41:17 IST" duration-ms="2951" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.id: identifierId
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: identifierId
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at pageObjects.GoogleSigninPage.GivingMailID(GoogleSigninPage.java:23)
+at testNGTestCases.SignInPage.SendMailID(SignInPage.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendMailID -->
+        <test-method signature="ProcedingWithMain()[pri:17, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:41:17 IST" name="ProcedingWithMain" finished-at="2024-03-08T14:41:17 IST" duration-ms="32" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f037d37e877525d0c05bb62cb88664ce, findElement {value=identifierId, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62895/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f037d37e877525d0c05bb62cb88664ce]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f037d37e877525d0c05bb62cb88664ce, findElement {value=identifierId, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62895/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f037d37e877525d0c05bb62cb88664ce
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+at pageObjects.GoogleSigninPage.ProcedingWithMailID(GoogleSigninPage.java:28)
+at testNGTestCases.SignInPage.ProcedingWithMain(SignInPage.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcedingWithMain -->
+        <test-method signature="captureSigninError()[pri:18, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:41:17 IST" name="captureSigninError" finished-at="2024-03-08T14:41:21 IST" duration-ms="3016" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f037d37e877525d0c05bb62cb88664ce, findElement {value=//div[@class='LXRPh']//div[@class='dEOOab RxsGPe']/div, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62895/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f037d37e877525d0c05bb62cb88664ce]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f037d37e877525d0c05bb62cb88664ce, findElement {value=//div[@class='LXRPh']//div[@class='dEOOab RxsGPe']/div, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62895/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f037d37e877525d0c05bb62cb88664ce
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+at pageObjects.GoogleSigninPage.CaptureError(GoogleSigninPage.java:34)
+at testNGTestCases.SignInPage.captureSigninError(SignInPage.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureSigninError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGTestCases.SignInPage@1a4927d6]" started-at="2024-03-08T14:41:25 IST" name="tearDown" finished-at="2024-03-08T14:41:26 IST" duration-ms="1197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testNGTestCases.UsedCarsSearch -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testNGTestCases.SignInPage -->
+    </test> <!-- Edge -->
+  </suite> <!-- Suite -->
 </testng-results>

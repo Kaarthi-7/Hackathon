@@ -14,11 +14,13 @@
     <classes>
       <class name="testNGTestCases.SignInPage">
         <methods>
-          <include name="ClickingOnChennai"/>
-          <include name="captureSigninError"/>
+          <include name="SendMailID"/>
           <include name="tearDown"/>
+          <include name="captureSigninError"/>
+          <include name="SwitchingTab"/>
           <include name="siteLaunch"/>
-          <include name="HoveringIUsedCars"/>
+          <include name="Clickongoogle"/>
+          <include name="ProcedingWithMain"/>
         </methods>
       </class> <!-- testNGTestCases.SignInPage -->
     </classes>
