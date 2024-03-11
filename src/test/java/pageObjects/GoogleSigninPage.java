@@ -32,6 +32,7 @@ public class GoogleSigninPage extends BasePage {
 		ExcelUtilities EU = new ExcelUtilities();
 		Thread.sleep(3000);
 		System.out.println(error.getText());
+		System.out.println("==================================================");
 		EU.write(1,4,error.getText());
 	}
 }
