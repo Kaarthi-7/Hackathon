@@ -42,8 +42,7 @@ public class ExtentReportManager implements ITestListener {
 		report.setSystemInfo("Module", "Identify New Bikes");
 		report.setSystemInfo("Operating System", System.getProperty("os.name"));
 		report.setSystemInfo("User Name", System.getProperty("user.name"));
-		String browser = testContext.getCurrentXmlTest().getParameter("browser");
-		report.setSystemInfo("Browser", browser);
+		report.setSystemInfo("Browser", "Chrome");
 	}
 
 	public void onTestSuccess(ITestResult result) {
