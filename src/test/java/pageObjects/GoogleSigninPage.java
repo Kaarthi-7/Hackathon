@@ -30,7 +30,7 @@ public class GoogleSigninPage extends BasePage {
 	
 	public void CaptureError() throws Exception {
 		ExcelUtilities EU = new ExcelUtilities();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		System.out.println(error.getText());
 		System.out.println("==================================================");
 		EU.write(1,4,error.getText());

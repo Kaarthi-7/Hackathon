@@ -64,7 +64,7 @@ public class ZigWheelsHomePage extends BasePage {
 	
 	public void SignIn() throws Exception {
 		Login.click();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 	}
 	
 	public void GoogleClick() {
