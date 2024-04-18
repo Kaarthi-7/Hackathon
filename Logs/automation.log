@@ -23,3 +23,5 @@
 23:17:19.486 [main] INFO  factory.BaseClass - ----Successfully sent the mail-ID to login page----
 23:17:20.622 [main] INFO  factory.BaseClass - ----Successfully procedded with the Mail-ID----
 23:17:21.901 [main] INFO  factory.BaseClass - ----Successfully captured the Error message----
+13:29:21.294 [main] INFO  factory.BaseClass - ----Successfully clicked on the Page Logo----
+13:29:57.186 [main] INFO  factory.BaseClass - ----Successfully navigated on the Upcoming Bikes----

@@ -18,13 +18,13 @@ public class ZigWheelsHomePage extends BasePage {
 	@FindBy(xpath = "//a[@href='/newbikes']")
 	WebElement NewBike;
 	
-	@FindBy(xpath = "//span[@onclick=\"goToUrl('/upcoming-bikes')\"]")
+	@FindBy(xpath = "//span[@data-tag-url='/upcoming-bikes']")
 	WebElement UpComingBike;
 	
 	@FindBy(xpath = "//a[@href='/used-car']")
 	WebElement UsedCars;
 	
-	@FindBy(xpath = "//span[@onclick=\"goToUrl('/used-car/Chennai')\"]")
+	@FindBy(xpath = "//span[@data-tag-url='/used-car/Chennai']")
 	WebElement UsedCarsChennai;
 	
 	@FindBy(id = "forum_login_title_lg")
